@@ -2,12 +2,10 @@
 
 [ext_resource type="Script" uid="uid://c451ihm5lh5at" path="res://scripts/w_mainmenu.gd" id="1_dwxnn"]
 [ext_resource type="Texture2D" uid="uid://d3gnsqf872r6d" path="res://icon.svg" id="2_dwxnn"]
+[ext_resource type="Texture2D" uid="uid://5c6mr0k3iaua" path="res://assets/bafkreig5ylksd2hh5ehbgxrxdtgmp3ehuk6tg3wt2ojwhej3xky5c667nq.webp" id="2_fmdtr"]
 [ext_resource type="Texture2D" uid="uid://cyb5yuy0auvhh" path="res://assets/BiH_texturebutton.png" id="3_2og5n"]
 [ext_resource type="Texture2D" uid="uid://bteo2pjdalwdw" path="res://assets/BiH_texturebutton2.png" id="4_fmdtr"]
 [ext_resource type="Texture2D" uid="uid://c30akjfb6mcke" path="res://assets/BiH_texturebutton3.png" id="5_60upi"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fag8q"]
-load_path = "res://.godot/imported/Findings-Of-Dark-Oxygen-On-The-Seabed.jpg-ea1837ecb45e6c26b02c7a93914208d6.ctex"
 
 [node name="W_Mainmenu" type="Control" unique_id=658321285]
 layout_mode = 3
@@ -25,7 +23,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("CompressedTexture2D_fag8q")
+texture = ExtResource("2_fmdtr")
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=1018442057]
 layout_mode = 1
