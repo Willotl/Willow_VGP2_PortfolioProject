@@ -6,6 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://cyb5yuy0auvhh" path="res://assets/BiH_texturebutton.png" id="3_2og5n"]
 [ext_resource type="Texture2D" uid="uid://bteo2pjdalwdw" path="res://assets/BiH_texturebutton2.png" id="4_fmdtr"]
 [ext_resource type="Texture2D" uid="uid://c30akjfb6mcke" path="res://assets/BiH_texturebutton3.png" id="5_60upi"]
+[ext_resource type="Texture2D" uid="uid://ba8x8pxaydg4e" path="res://assets/BG_texturebutton.png" id="6_fdnwb"]
+[ext_resource type="Texture2D" uid="uid://djoh7p8t2fssj" path="res://assets/BG_texturebutton2.png" id="7_alesy"]
+[ext_resource type="Texture2D" uid="uid://d2w8xwtg271qc" path="res://assets/BG_texturebutton3.png" id="8_r7j3y"]
 
 [node name="W_Mainmenu" type="Control" unique_id=658321285]
 layout_mode = 3
@@ -73,7 +76,9 @@ layout_mode = 2
 
 [node name="BG_Button" type="TextureButton" parent="MarginContainer/VBoxContainer/BanditGame" unique_id=620068776]
 layout_mode = 2
-texture_normal = ExtResource("2_dwxnn")
+texture_normal = ExtResource("6_fdnwb")
+texture_pressed = ExtResource("7_alesy")
+texture_hover = ExtResource("8_r7j3y")
 
 [node name="TextBox" type="VBoxContainer" parent="MarginContainer/VBoxContainer/BanditGame" unique_id=1481478853]
 layout_mode = 2
